@@ -12,3 +12,10 @@ Compline from the Anglican Service Book.
 # Example
 
 ![](screenshot.png)
+
+# TODO
+
+- [ ] Add Marian antiphons
+- [ ] Double check for spelling errors
+- [ ] Fix songs (they are bespoke, I need to find arrangements for them)
+- [ ] Plainchant version
