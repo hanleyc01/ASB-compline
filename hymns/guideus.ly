@@ -40,3 +40,35 @@
 \layout { }
 \midi { }
 }
+
+\paper {
+  \include "line-width.ily"
+  indent = 0
+  ragged-right = ##f
+  top-margin = 0
+  bottom-margin = 0  
+  left-margin = 0
+  right-margin = 0
+}
+
+\score{
+\new Voice \relative b' {
+	\clef treble
+    \key c \major
+    \override Staff.TimeSignature.stencil = ##f
+    \override Staff.Accidental.stencil = ##f
+    \override Staff.AccidentalCautionary.stencil = ##f
+	\hide Staff.Stem
+    \cadenzaOn
+    b4 b4 c4 b4( a4) \bar "'"
+    c4 e4 d4( e4) c4( b a4)
+    b4( c4) c4 b4 b4 \bar "||"
+    \cadenzaOff
+}
+\addlyrics {
+    \set stanza = \markup \italic "In Easter Season, add:"
+    Al -- le -- lu -- ia, al -- le -- lu -- ia, al -- le -- lu --ia.
+}
+\layout { }
+\midi { }
+}
