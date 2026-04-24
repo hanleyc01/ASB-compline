@@ -25,8 +25,8 @@
     \override Staff.AccidentalCautionary.stencil = ##f
 	\hide Staff.Stem
     \cadenzaOn
-    f4 f4 f4 f4( g4) g4( f4) g2( a2) \bar "'"
-    a4( f4) g4( a4) g4( f4 d4) f4( g4) g2 f2 \bar "||"
+    f4 f4 f4 f4( g4) g4( f4) g4( a4) \bar "'"
+    a4( f4) g4( a4) g4( f4 d4) f4( g4) g4 f4 \bar "||"
     % a\breve g4 e4 f1 \bar "||"
     \cadenzaOff
 }
@@ -81,7 +81,7 @@
     \override Staff.AccidentalCautionary.stencil = ##f
 	\hide Staff.Stem
     \cadenzaOn
-    a4( f4) g4( a4) g4( f4 d4) f4( g4) g2 f2 \bar "||"
+    a4( f4) g4( a4) g4( f4 d4) f4( g4) g4 f4 \bar "||"
     \cadenzaOff
 }
 \addlyrics {
@@ -128,8 +128,8 @@
     \override Staff.AccidentalCautionary.stencil = ##f
 	\hide Staff.Stem
     \cadenzaOn
-    f4 f4 f4 f4( g4) g4( f4) g2( a2) \bar "'"
-    a4( f4) g4( a4) g4( f4 d4) f4( g4) g1 f1 \bar "||"
+    f4 f4 f4 f4( g4) g4( f4) g4( a4) \bar "'"
+    a4( f4) g4( a4) g4( f4 d4) f4( g4) g4 f4 \bar "||"
     % a\breve g4 e4 f1 \bar "||"
     \cadenzaOff
 }
@@ -163,7 +163,7 @@
     \override Staff.AccidentalCautionary.stencil = ##f
 	\hide Staff.Stem
     \cadenzaOn
-    f4( g4) f4 f4 f4 f4 f4 g4 a4 a2( g2) \bar "||"
+    f4( g4) f4 f4 f4 f4 f4 g4 a4 a4( g4) \bar "||"
     \cadenzaOff
 }
 \addlyrics {
@@ -181,7 +181,7 @@
     \override Staff.AccidentalCautionary.stencil = ##f
 	\hide Staff.Stem
     \cadenzaOn
-    f4 f4 f4 f4 f4 f4( g4) f4 f4 g4( a4) a2( g2) \bar "||"
+    f4 f4 f4 f4 f4 f4( g4) f4 f4 g4( a4) a4( g4) \bar "||"
     \cadenzaOff
 }
 \addlyrics {
