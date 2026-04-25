@@ -14,6 +14,12 @@
   bottom-margin = 0
   left-margin = 0
   right-margin = 0
+  #(define fonts
+    (make-pango-font-tree
+      "Sabon LT Std"
+      "Sabon LT Std"
+      "Sabon LT Std"
+      (/ staff-height pt 20)))
 }
 
 \score{
